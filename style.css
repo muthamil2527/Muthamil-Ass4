@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color:black;
+    color:red;
+}
+nav
+{
+    background:aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+    
+}
+.logo
+{
+    margin-left: 0;
+    
+}
+h1{
+    margin-top: 30px;
+    margin-left:30px;
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav ul a:hover {
+    color: blue;
+}
+.container
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap:10px;
+    margin-top: 40px;
+}
+.container > div
+{
+    width: 450px;
+    height:450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container > div p{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container p{
+    text-decoration: none;
+}
+.container > div p:hover{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container > div h2:hover{
+    font-size: 30px;
+}
+.bg1
+{
+    background-image: url("bg1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2
+{
+    
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3
+{
+    
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg4
+{
+    
+    background-image: url("bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg5
+{
+    
+    background-image: url("bg5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg6
+{
+    
+    background-image: url("bg6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg7
+{
+    
+    background-image: url("bg7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg8
+{
+    
+    background-image: url("bg8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg9
+{
+    background-image: url("bg9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container > div:hover{
+    opacity: 1;
+    transform: scale(0.9);
+}
+#foot{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+#foot i{
+    color: blueviolet;
+    justify-content: center;
+
+}
+#foot :hover
+{
+    background-color: aqua;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+    
+
